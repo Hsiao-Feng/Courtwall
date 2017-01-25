@@ -8,7 +8,9 @@
   `字段content,name,class,dateandtime,id
   类型text,tinytext,tinytext,datetime,int(11)`
 # 使用的技术
-  <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
-  <a href="https://v3.bootcss.com/" target="_blank">Bootstrap 中文网</a>CDN
+<li>
+<ul><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></ul>
+<ul><a href="https://v3.bootcss.com/" target="_blank">Bootstrap 中文网</a>CDN</ul>
+</li>
 # 遇到问题？
   请提交本页面的Issues。
