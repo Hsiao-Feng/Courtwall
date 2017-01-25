@@ -1,0 +1,32 @@
+﻿.header{
+	
+}
+.main{
+	margin:20px;
+}
+.say{
+	
+}
+.speech{
+	background-color:#acf2d2;
+	width:90%;
+	height:auto;
+	padding:20px 30px;
+	font-size:25px;
+	border-radius:15px;
+	margin:10px 30px;
+}
+.info{
+	color:#7c8a84;
+	font-size:16px;
+}
+.send{
+	
+}
+.footer{
+	
+}
+.theinput{
+	width:90%;
+	height:500px;
+}
