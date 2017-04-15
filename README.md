@@ -7,6 +7,5 @@
 # 使用的技术
 	<p><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></p>
 	<p><a href="https://v3.bootcss.com/" target="_blank">Bootstrap 中文网</a>CDN</p>
-</li>
 # 问题/建议
   请提交Issues。
