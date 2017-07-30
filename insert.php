@@ -23,7 +23,7 @@
 			if(!$_POST['content']==""){
 				if (!$con)
 				  {
-					echo '<font color="red" size="48">数据库异常！<br/>请联系网络管理员！</font>';
+					die '<font color="red" size="48">数据库异常！<br/>请联系网络管理员！</font>';
 				  }
 				$dateandtime=date("Y-m-d H:i:s");
 				mysql_select_db("courtwall", $con);
@@ -31,7 +31,7 @@
 				VALUES
 				('$content','$name','$class','$dateandtime')";
 				if (!mysql_query($sql,$con)){
-					echo '<font color="red" size="48">数据库异常！<br/>请联系网络管理员！</font>';
+					die '<font color="red" size="48">数据库异常！<br/>请联系网络管理员！</font>';
 				}else{
 				echo "<h2>内容已提交！</h2>";
 				}
