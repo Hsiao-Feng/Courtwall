@@ -4,7 +4,7 @@
 			include 'dbc.php';
 			if (!$con)
 			  {
-				echo '<font color="red" size="48">服务器无法连接数据库！<br/>请联系网络管理员！</font>';
+				die('<font color="red" size="48">服务器无法连接数据库！<br/>请联系网络管理员！</font>');
 			  }
 		?>
 		<div class="header">
