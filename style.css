@@ -1,32 +1,32 @@
-﻿.header{
-	
-}
 .main{
-	margin:20px;
-}
-.say{
-	
+	margin:20px auto;
+	max-width: 800px;
 }
 .speech{
-	background-color:#acf2d2;
-	width:90%;
+	background:linear-gradient(to right,#9efd8a54, #deffac54);
 	height:auto;
 	padding:20px 30px;
 	font-size:25px;
-	border-radius:15px;
-	margin:10px 30px;
+	border-radius:.5em;
+	/*! border: #488c6d 3px solid; */
+	color: #36554b;
 }
 .info{
 	color:#7c8a84;
 	font-size:16px;
-}
-.send{
-	
-}
-.footer{
-	
+	margin: 0;
+	border-top: #408c6c55 1px solid;
+	padding-top: .5em;
 }
 .theinput{
 	width:90%;
 	height:500px;
+}
+
+.navbar-brand{
+	color: #333;
+}
+
+.nav-link{
+	color: #646464;
 }
